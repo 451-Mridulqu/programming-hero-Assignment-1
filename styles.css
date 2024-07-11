@@ -5,34 +5,29 @@
        font-family: "Azeret Mono", monospace;
        font-optical-sizing: auto;
        font-weight: <weight>;
-       font-style: normal;
-     }
+       font-style: normal; }
+
 
 /*Frame*/
-.Frame{ text-align: center; margin: 221px 221px 131px;
-     
+.Frame{ text-align: center; margin: 221px 221px 131px;}
 
-}
 #Frame{
        display: flex;
        justify-content: center;
+       }  
        
-}  /* Header-Bg-Img */
+       /* Header-Bg-Img */
 
 .Banner{ background-image: url(Hero-bg.png);
        padding: 150px 60px;margin: 0px;
-        
+       font-size: 20px;
+       font-family: ;} 
 
-
-
-       
-} 
  #text-al{  position: static;
             justify-content: flex-start;
              align-items: center;
-             border: 221px 142px;
+             border: 221px 142px;}
 
- }
 
   /* BTN-Styles */
 
@@ -48,16 +43,12 @@
        
 }
  
-.btn-0.1{ 
-         
-}
-
-
-
-.banner-title{ font-size: 43px;
-               
-
-}
+.btn{  padding: 12px 20px; background: none;
+       box-sizing: border-box;
+       border: 1px solid rgb(13, 19, 33);
+       opacity: 0.7;}
+       
+.banner-title{ font-size: 43px;}
 
 .banner-discrition{ font-size: 14px; opacity: 0.7;
                     letter-spacing: 0%;
@@ -72,14 +63,13 @@
              text-align: center;padding: 10px; 
               background-color: white;
                margin: 97px ;
-          }
+               border-radius: 15px; }
 main div h1{
            font-size: 35px;
-           letter-spacing: 0%;
-}
+           letter-spacing: 0%;}
+
  main div p{ font-size: 14px;
-              opacity: .7;
-             }
+              opacity: .7;}
  
              .Section-1{
                      display:flex; align-items:flex-start;
@@ -87,26 +77,69 @@ main div h1{
                      margin: 48px ;
                      padding: 48px;
                      background-color: rgb(255, 255, 255);
-             }
+                     border-radius: 15px;}
+
   .section-01{
-             flex-direction: column;
-       
-       
-  }
+             flex-direction: column;}
+
 
    #Section-2{  display:flex; 
        justify-content: flex-start;
          margin: 48px;
           padding: 48px;
           background-color: rgb(255, 255, 255);
+          border-radius: 15px;}
 
-}
    .Color{ 
              
        border-radius: 16px;
 
         background: rgba(13, 19, 33, 0.02); padding: 80px 97px 80px 97px;
           border: 16px,; margin: 148px;}
+
+   /* Qns Styles */
+
+    .Qun-styles{ font-size: 24px; 
+       color: rgba(13, 19, 33, 0.7)
+
+    }
+    iframe{
+            size: 200px;
+    }
+
+    .Colors{ 
+             
+       border-radius: 16px;
+
+        background: rgba(13, 19, 33, 0.02); padding: 80px 97px 80px 97px;
+          border: 16px,; margin: 148px}
+
+        .KL-1 { text-align: center; }
+          
+        .KL-2{ background-color: white; padding: 10px; border-radius: 10px
+
+                
+        } 
+        
+        .Inspiration{
+                 font-size: 32px;
+        }
+         
+        .Ans{ font: 16px; opacity: 0.7;
+               
+        }
+
+       .video{
+               align-self:;
+               margin: 10px 0px;
+               flex:none ;
+               border-radius: 15px;
+               padding: 20px;
+               background-color: white;
+               
+               
+       }
+    
           
        
 
