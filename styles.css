@@ -9,7 +9,7 @@
      }
 
 /*Frame*/
-.Frame{ text-align: center
+.Frame{ text-align: center; margin: 221px 221px 131px;
      
 
 }
@@ -21,11 +21,19 @@
 
 .Banner{ background-image: url(Hero-bg.png);
        padding: 150px 60px;margin: 0px;
+        
 
 
 
        
 } 
+ #text-al{  position: static;
+            justify-content: flex-start;
+             align-items: center;
+             border: 221px 142px;
+
+ }
+
   /* BTN-Styles */
 
 .btn-primary{
@@ -39,21 +47,68 @@
        letter-spacing: 0%;
        
 }
+ 
+.btn-0.1{ 
+         
+}
+
+
 
 .banner-title{ font-size: 43px;
                
 
 }
 
-.banner-discrition{ font-size: 16px; opacity: 0.7;
-                    letter-spacing: 0%;}
+.banner-discrition{ font-size: 14px; opacity: 0.7;
+                    letter-spacing: 0%;
+                     font-weight: 400px;
+                      line-height: 18px;
+                       margin: 24px 0px;
+                       flex-direction: column;}
 
 
                     /* Main-Header */
    .KL{
-             text-align: center;}
+             text-align: center;padding: 10px; 
+              background-color: white;
+               margin: 97px ;
+          }
+main div h1{
+           font-size: 35px;
+           letter-spacing: 0%;
+}
+ main div p{ font-size: 14px;
+              opacity: .7;
+             }
+ 
+             .Section-1{
+                     display:flex; align-items:flex-start;
+                     justify-content: space-around;
+                     margin: 48px ;
+                     padding: 48px;
+                     background-color: rgb(255, 255, 255);
+             }
+  .section-01{
+             flex-direction: column;
+       
+       
+  }
 
-  
+   #Section-2{  display:flex; 
+       justify-content: flex-start;
+         margin: 48px;
+          padding: 48px;
+          background-color: rgb(255, 255, 255);
+
+}
+   .Color{ 
+             
+       border-radius: 16px;
+
+        background: rgba(13, 19, 33, 0.02); padding: 80px 97px 80px 97px;
+          border: 16px,; margin: 148px;}
+          
+       
 
 
      
