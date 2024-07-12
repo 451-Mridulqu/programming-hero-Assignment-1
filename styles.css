@@ -109,14 +109,16 @@ main div h1{
 
     .Colors{ 
              
-       border-radius: 16px;
-
-        background: rgba(13, 19, 33, 0.02); padding: 80px 97px 80px 97px;
-          border: 16px,; margin: 148px}
+      border: 
+             
+       
+       
+          ;margin: 148px 152px 88px `149px,;}
 
         .KL-1 { text-align: center; }
           
-        .KL-2{ background-color: white; padding: 10px; border-radius: 10px
+        .KL-2{ background-color: rgb(255, 255, 255);  padding: 0px; margin: 220px ; margin-bottom: 10px; margin-top: 10px;
+              
 
                 
         } 
@@ -134,14 +136,131 @@ main div h1{
                margin: 10px 0px;
                flex:none ;
                border-radius: 15px;
-               padding: 20px;
-               background-color: white;
+               
+               
                
                
        }
-    
-          
-       
+       /* Support */
+       .Support-bg{
+                   background-image: url(handshake.jpg);
+       }
 
+       .Target{  margin: 150px 149px;
+
+               
+       }
+          
+     .Code{
+            display: flex;
+            flex-direction: row;
+            
+
+     }
+
+      .goal{
+            text-align: center;
+             
+             margin-bottom: 40px;
+      }
+       
+      .html{ padding: 40px;
+       border-radius: 16px;
+       background: rgba(255, 76, 30, 0.05);
+       margin: 0px 24px;
+
+      }
+      .css{ padding: 40px;
+       border-radius: 16px;
+
+       background: rgba(0, 76, 232, 0.05);
+       margin: 
+
+      }
+      .js{ padding: 40px;
+       border-radius: 16px;
+
+       background: rgba(255, 223, 0, 0.05);
+       margin: 0px 24px;
+
+      }
+        .Current{ font-size: 32px;
+
+        }
+    /* Code Font */
+
+      .html-f { font-size: 24px;
+           
+      }
+      .css-f{ font-size: 24px;
+
+      }
+      .js-f{ font-size: 24px;
+
+      }
+       .html-p{
+                font-size: 12px;
+       }
+       .css-p{
+               font-size: 12px;
+       }
+        .js-p{
+               font-size: 12px;
+        }
+        .link{
+               color: black;
+               font-size: 16px;
+               font-weight: bold;
+        }
+          /*Support-S*/
+           .img{
+               background-image: url(handshake.jpg); border-radius: 20px;
+                max-width: 50%
+                height: 100%;
+               
+               
+               
+           }
+
+          .Support-S{
+                  
+                  margin: 150px 150px 80px 179px;
+          }
+       .CH{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 48px 48px 64px;
+       }
+      .input-1{
+             display: flex;
+      }
+       .input-01{
+              margin: 0px 16px;
+              padding: 20px 150px ;
+              box-sizing: border-box;
+                border: none;
+              border-radius: 8px;
+
+              background: rgb(255, 255, 255);
+              justify-content: flex-start;
+               
+       }
+       .input-02{
+              border-radius: 8px;
+
+              background: rgb(255, 255, 255);
+              flex: none;
+              order: 1;
+              flex-grow: 0;
+              margin: 0px 16px;
+              padding: 17px 60px 17px 20px;
+              font-size: 20px;
+              font-weight: bold;
+              align-items: center;
+              border: none;
+
+       }
 
      
